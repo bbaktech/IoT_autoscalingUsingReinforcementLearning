@@ -66,3 +66,8 @@ class DQNAgent:
         with open(name, 'a') as f:
             f.write(strval)
             f.close()
+        import shelve
+        traininglist = shelve.open('scores.pickle', writeback=True)
+        traininglist['data'] = self.memory
+        traininglist.close()
+        

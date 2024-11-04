@@ -13,16 +13,16 @@ MAX_REWARD = 100
 FD_CAPACITY1 = 10
 FD_CAPACITY3 = 10
 FD_CAPACITY5 = 10
-	
+
 #CPU speed instructions per second
 CPU_SPEED1 = 2000
 CPU_SPEED2 = 2000
 CPU_SPEED3 = 2000
-	
+
 #latency
 LATENCY_CS_FR = 50
 LATENCY_ED_FR = 2
-	
+
 #three types of jobs
 #job types
 NORMAL_ALERTS   = 1
