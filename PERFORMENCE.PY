@@ -11,7 +11,7 @@ from collections import deque
 from keras.src import Sequential 
 from keras.src.layers import Dense
 from keras.src.optimizers import Adam
-from devices import STATE
+
 import matplotlib.pyplot as plt
 import numpy as np
 import seaborn as sn
